@@ -25,7 +25,7 @@ AliExpress text based search is barely usable and makes it very difficult to fin
 
 I found some ~~cursed~~ cheap motors on AliExpress (about 0.75$ each, similar to the ones that are commonly used in cheap Chinese camera drones and DJI lookalikes) and felt like making a 3D printed quad with them, and some spare parts. I decided to go with a Y4 configuration, mainly because it looks cool.
 
-The design is not perfect; the FC can't be easily removed after assembly (so finish soldering first and only *then* glue the frame) and there are many areas left for improvement, but I'm overall happy with the design.
+The design is not perfect - the FC can't be easily removed after assembly (so finish soldering first and only *then* glue the frame) and there are many areas left for improvement, but I'm overall happy with the design.
 
 Parts used:
 - **AIO FC** (30.5x30.5 mounting, 4S compatible)
@@ -70,8 +70,8 @@ Parts used:
 
 ## Build steps
 
-I haven't documented the build step-by-step, but the craft is very simple to assemble. The steps are briefly as follows;
-1. Print all parts (found in *models/01_y4mini/*). File names starting with `b_`, `w_`, and `c_` indicate black, white, and colored parts in my build. `tpu_` should be printed from 90-95A TPU.
+I haven't documented the build step-by-step, but the craft is very simple to assemble. The steps are briefly as follows:
+1. Print all parts (found in `models/01_y4mini/`). File names starting with `b_`, `w_`, and `c_` indicate black, white, and colored parts in my build. `tpu_` should be printed from 90-95A TPU.
 2. Fasten the AIO (along with the battery holder) to the main plate, and mount the motors.
 3. Solder leads to the VTX and receiver, then pass them through the holes in the top plate.
 4. Loosely assemble the frame (do not glue yet), then trim all leads to the correct length and solder them to the AIO. Solder the battery connector to the AIO.
